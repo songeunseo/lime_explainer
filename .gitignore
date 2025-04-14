@@ -1,9 +1,13 @@
-# Python
+# 데이터 디렉토리
+data/
+
+# Python 관련
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -15,25 +19,30 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# 가상환경
 venv/
+ENV/
 env/
-lime-env/
-.env
-.venv
-**/lime-env/
 
-# IDE
+# IDE 관련
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# 기타
 .DS_Store
+*.log
+
+# Virtual Environment
+lime-env/
+.env
+.venv
+**/lime-env/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -45,13 +54,10 @@ lime-env/
 *.model
 
 # Logs
-*.log
 logs/
 
 # Local development settings
-.env
 .env.local
 
 # System Files
-.DS_Store
 Thumbs.db 
