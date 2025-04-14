@@ -1,5 +1,5 @@
-# lime_mnist_explainer
-Explainable AI experiment with LIME on MNIST: seeing what the model sees.
+# lime_explainer
+Explainable AI experiment with LIME: seeing what the model sees.
 
 ## LIME 설명 예시
 
